@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ===== Navbar ===== -->
+  <header>
+    <h1>Your Name</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ===== About Section ===== -->
+  <section id="about">
+    <img src="images/profile.jpg" alt="Your Photo">
+    <h2>About Me</h2>
+    <p>Hi! I'm <b>Your Name</b>, a passionate web developer who loves creating beautiful and functional websites.</p>
+    <a href="resume.pdf" class="btn" download>Download Resume</a>
+  </section>
+
+  <!-- ===== Skills Section ===== -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>React.js</li>
+      <li>Git & GitHub</li>
+      <li>Responsive Design</li>
+    </ul>
+  </section>
+
+  <!-- ===== Projects Section ===== -->
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>A personal website built using HTML, CSS, and JavaScript.</p>
+      <a href="https://github.com/yourusername/PortfolioWebsite" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project">
+      <h3>Weather App</h3>
+      <p>Weather forecast app using API.</p>
+      <a href="https://github.com/yourusername/WeatherApp" target="_blank">View on GitHub</a>
+    </div>
+  </section>
+
+  <!-- ===== Contact Section ===== -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></p>
+    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">GitHub</a></p>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    <p>© 2025 Your Name | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
