@@ -1,69 +1,64 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Name — Portfolio</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vatsh Upenbhai Patel - Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- ===== Navbar ===== -->
-  <header>
-    <h1>Your Name</h1>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo"><a href="index.html">Vatsh Upenbhai Patel</a></h1>
+      <button id="nav-toggle" aria-label="open navigation">☰</button>
+      <nav id="nav" class="nav">
+        <a href="index.html">Home</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <!-- ===== About Section ===== -->
-  <section id="about">
-    <img src="images/profile.jpg" alt="Your Photo">
-    <h2>About Me</h2>
-    <p>Hi! I'm <b>Your Name</b>, a passionate web developer who loves creating beautiful and functional websites.</p>
-    <a href="resume.pdf" class="btn" download>Download Resume</a>
-  </section>
+  <main>
+    <section class="hero container">
+      <div class="hero-left">
+        <h2>Hey Everyone!, I'm Vatsh Patel <span class="accent">— Web Developer</span></h2>
+        <p class="bio">
+          Passionate Front-End Developer in progress, exploring how Git and GitHub streamline collaboration, version control, and creativity in modern web projects.
+        </p>
+        <p>
+          <a class="btn" href="resume.pdf" target="_blank" download>Download Resume (PDF)</a>
+          <a class="btn outline" href="projects.html">See Projects</a>
+        </p>
+      </div>
+      <div class="hero-right">
+        <img src="photo.jpeg" alt="Vatsh's photo" class="profile-photo" />
+      </div>
+    </section>
 
-  <!-- ===== Skills Section ===== -->
-  <section id="skills">
-    <h2>My Skills</h2>
-    <ul>
-      <li>HTML, CSS, JavaScript</li>
-      <li>React.js</li>
-      <li>Git & GitHub</li>
-      <li>Responsive Design</li>
-    </ul>
-  </section>
+    <section class="about container">
+      <h3>About Me</h3>
+      <p>Enrollment No: 202403103510086</p>
+      <ul class="highlights">
+        <li>Skills: HTML, CSS, JavaScript</li>
+        <li>Experience: College projects & coursework</li>
+        <li>Interests: Web development, UI/UX</li>
+      </ul>
+    </section>
+  </main>
 
-  <!-- ===== Projects Section ===== -->
-  <section id="projects">
-    <h2>My Projects</h2>
-    <div class="project">
-      <h3>Portfolio Website</h3>
-      <p>A personal website built using HTML, CSS, and JavaScript.</p>
-      <a href="https://github.com/yourusername/PortfolioWebsite" target="_blank">View on GitHub</a>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p>&copy; 2025 Vatsh Upenbhai Patel</p>
+      </div>
+      <div class="socials">
+        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+        <a href="mailto:youremail@example.com">Email</a>
+      </div>
     </div>
-
-    <div class="project">
-      <h3>Weather App</h3>
-      <p>Weather forecast app using API.</p>
-      <a href="https://github.com/yourusername/WeatherApp" target="_blank">View on GitHub</a>
-    </div>
-  </section>
-
-  <!-- ===== Contact Section ===== -->
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></p>
-    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">GitHub</a></p>
-  </section>
-
-  <!-- ===== Footer ===== -->
-  <footer>
-    <p>© 2025 Your Name | All Rights Reserved</p>
   </footer>
 
   <script src="script.js"></script>
